@@ -80,18 +80,17 @@ class TicTacToe():
     # updates board state and variables that remember player order and symbol
     def update_board(self, cell_choice):
         self.game_turn += 1
+
+        self.board[cell_choice] = self.next_turn
+        self.last_cell = cell_choice
+
         if self.next_turn == 'X':
-            symbol = 'X'
             self.next_turn = 'O'
             self.current_player = self.player2_name
         else:
-            symbol = 'O'
             self.next_turn = 'X'
             self.current_player = self.player1_name
                     
-        self.board[cell_choice] = symbol
-        self.last_cell = cell_choice
-    
     # prints board to console as well as round and player info
     def draw_board(self):
         print('\n  Round ' + str(self.game_turn) + ' - Next symbol is \'' + self.next_turn + '\'.\n')
