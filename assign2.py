@@ -32,7 +32,7 @@ class TicTacToe():
         self.play_game()
 
     def print_tutorial(self):
-        print('\n\nnWelcome to Tic-Tac-Toe')
+        print('\n\nWelcome to Tic-Tac-Toe')
         print('\nThe rules are simple. Starting with ' + self.player1_name + ',')
         print('each player will place one mark on the board per turn.')
         print('This repeats until one player has three of their marks')
