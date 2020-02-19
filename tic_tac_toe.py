@@ -2,8 +2,7 @@ class TicTacToe():
     """Self-contained ASCII tic-tac-toe game.
 
     This is a self-containted ASCII tic-tac-toe game. The instructions are built
-    in and print when the game begins. Players can set custom names that are used 
-    to print who's turn is next. Turns are taking by entering the cell name as text.
+    in and print when the game begins. Turns are taken by entering the cell name as text.
 
     The script is meant to be ran with no arguments. This intializes and calls the class containing the game.
     """
