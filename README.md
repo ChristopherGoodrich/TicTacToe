@@ -1,4 +1,4 @@
-# TicTacToe
+# tic-tac-toe
 
 I completed this project during a Python course as a part of the Masters of Science in Analytics program at NC State. Since I had been using Python for many years at this point, I used the assignment to work on class usage.
 
