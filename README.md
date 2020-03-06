@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-I completed this project during a Python course as a part of the Masters of Science in Analytics program at NC State. I used the assignment to get practice using classes and their some of their features.
+I completed this project during a Python course as a part of the Masters of Science in Analytics program at NC State. I used the assignment to get more practice using classes and their features.
 
 The game is contained in a single class. The Python file will initailize the class and being the game if ran directly. Gameplay happens through text inputs with instructions and the game board being printed to the console.
 
